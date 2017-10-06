@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body, html { 
+    height:100%; 
+    width:100%; 
+    background: #cdd4db;
+    color:#010812; 
+    font-family:  sans-serif,tahoma;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+
+.float-wrap{
+    float:left;
+    height:100%;
+    margin:10px 0 10px 0;
+    min-width:360px;
+    width:100%;
+}
+
+.wrap{
+    height:100%;
+    width:98%;
+    min-width:360px;
+    margin:auto;
+    position:relative;
+}
+
+.left-column{
+    background:#f5f2ff;
+    float:left; 
+    height:80%;
+    min-width:300px;
+    width: 30%;
+}
+
+.right-column{
+    background:#f5f2ff;
+    float:right;
+    height:100%;
+    position:absolute;
+    right:0;
+    min-width:360px;
+    width:69%;   
+}
+
+.column{
+    border-radius: 5px;
+}
+.column *{
+    margin: 10px;
+}
+
+.shadow{
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+
+footer{
+    clear:both;
+}
+
+footer, header{
+    text-align:center;
+    width:100%;
+}
+
+header{
+    background: #a2b4c3;
+    height:400px;
+    font-size: 45px;
+}
+
+.name-logo{
+    line-height:100px;
+    height: 100px;
+    padding-top: 20px;
+    width:330px;
+    margin-left:35%;
+    margin-right:35%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.name-logo p{
+    float: left;
+}
+
+#logo{
+    width:100px;
+    float: right;
+}
+
+.top-nav{
+    width:100%;
+    height:250px;
+    margin-top: 30px;
+}
+
+li{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    width:20%;
+    height:170px;
+    /* display: inline-block; */
+    float: left;
+    line-height:170px;
+}
+
+a{
+    display: inline-block;
+    width:90%;
+    height: 210px;
+    background: url(1.png);
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+footer{
+    height:300px;
+    background: #010812;
+    color:#f5f2ff;
+    line-height:300px;
+}
+
+@media only screen and (max-device-width: 1040px){
+    .left-column, .right-column{
+        clear: both;
+        width:100%;
+    }
+
+    .right-column{
+        bottom:0;
+        top:0;
+        height:auto;
+        margin: 310px 0 0 0;
+    }
+
+    .left-column{
+        top:0;
+        height:300px;
+    }
+    
+}
