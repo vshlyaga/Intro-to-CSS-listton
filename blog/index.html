@@ -3,23 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="common-style.css">
+  <link rel="stylesheet" href="header2-style.css">
+  <link rel="stylesheet" href="left-column-style.css">
+  <link rel="stylesheet" href="right-column-style.css">
+  <link rel="stylesheet" href="footer-style.css">
+  <link rel="stylesheet" href="media-style.css">
 </head>
 <body>
   <header class="shadow">
     <div class="name-logo">
+      <p>blueberry</p>
+      <img src="5.png" id="logo">
+    </div>
+    <div class="header-img">
+    <!-- <div class="name-logo">
        <p>blueberry</p>
        <img src="5.png" id="logo">
+    </div> -->
+      <nav class="top-nav">
+        <ul>
+          <li><div id="lent" class="menu-img shadow"></div><a href="" >Лента</a></li>
+          <li><div id="gall" class="menu-img shadow"></div><a href="" >Галерея</a></li>
+          <li><div id="main" class="menu-img shadow"></div><a href="">Главная</a></li>
+          <li><div id="food" class="menu-img shadow"></div><a href="">Рецепты</a></li>
+          <li><div id="cont" class="menu-img shadow"></div><a href="" >Контакты</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="top-nav">
-      <ul>
-        <li><div id="lent" class="menu-img shadow"></div><a href="" >Лента</a></li>
-        <li><div id="gall" class="menu-img shadow"></div><a href="" >Галерея</a></li>
-        <li><div id="main" class="menu-img shadow"></div><a href="">Главная</a></li>
-        <li><div id="food" class="menu-img shadow"></div><a href="">Рецепты</a></li>
-        <li><div id="cont" class="menu-img shadow"></div><a href="" >Контакты</a></li>
-      </ul>
-    </nav>
   </header>
 
   <div class="float-wrap">
@@ -27,36 +38,35 @@
       <div class="left-column column shadow">
         <aside>
           <div class="aside-item">
-            <h3>Популярные посты</h3>
+            <a href="">Популярное</a>
           </div>
           <div class="aside-item">
-            <h3>Обо мне</h3>
+            <a href="">Главная</a>
           </div>
           <div class="aside-item">
-            <h3>Лента</h3>
+            <a href="">Лента</a>
           </div>
           <div class="aside-item">
-            <h3>Галерея</h3>
+            <a href="">Галерея</a>
           </div>
           <div class="aside-item">
-            <h3>Главная</h3>
+            <a href="">Рецепты</a>
           </div>
           <div class="aside-item">
-            <h3>Рецепты</h3>
+            <a href="">Обо мне</a>
           </div>
           <div class="aside-item">
-            <h3>Контакты</h3>
+            <a href="">Контакты</a>
           </div>
           <div class="aside-item">
-            <h3>Карта сайта</h3>
+            <a href="">Карта сайта</a>
           </div>                 
         </aside>
-        
-        
       </div>
+
       <div class="right-column column shadow">
         <div class="content-header">
-          <h1 id="head-news">Новости</h1>
+          <h1 id="head-news">последние новости</h1>
           <img src="refresh.png" class="icon" id="refresh">
           <div class="hide-icon">
             <form action="">
@@ -108,7 +118,39 @@
   </div>
 
   <footer class="shadow">
-    <p>footer</p>
+    <section>
+      <address class="inter-section">
+          <div class="info-block">
+              <p>Адрес:</p>
+              <p>г. Example, ул. Example д. 0</p>
+          </div>
+          <div class="info-block">
+              <p>Телефон:</p>
+              <p>0(987)654-32-10</p>
+          </div>
+          <div class="info-block">
+              <p>E-mail:</p>
+              <p>example@example.example</p>
+          </div>
+      </address>
+    </section>
+    <section>
+        <div  class="inter-section">
+            <p>Наши спонсоры:</p>
+            <img src="animal1.png" alt="" class="sponsors-icon">
+            <img src="animal2.png" alt="" class="sponsors-icon">
+            <img src="animal3.png" alt="" class="sponsors-icon">
+            <img src="animal4.png" alt="" class="sponsors-icon">
+            <img src="animal5.png" alt="" class="sponsors-icon">
+            <img src="animal6.png" alt="" class="sponsors-icon">
+        </div>
+    </section>
+    <section>
+      <div  class="inter-section">
+        <p>Правовая информация:</p>
+        <p class="align-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </section>
   </footer>
 </body>
 </html>
