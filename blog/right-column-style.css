@@ -96,7 +96,7 @@ input[type="submit"] {
 }
 
 .note:hover{
-    background:#cdd4db;
+    background:#E8E8F8;
     height:auto;
     transition: all 0.3s ease;
 }
