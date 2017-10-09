@@ -28,9 +28,9 @@ aside{
 }
 
 .aside-item a:hover{
-    background: #cdd4db;
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
 }
 
 .aside-item a:active{
-    box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.4);
 }
