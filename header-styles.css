@@ -16,7 +16,8 @@ header{
     text-transform: uppercase;
 }
 .name-logo p{
-    float: left;
+    /* float: left; */
+    margin: auto;
 }
 
 #logo{

@@ -2,7 +2,7 @@ header{
     text-align:center;
     background: #fff;
     height:auto;
-    font-size: 2.1em;
+    font-size: 2em;
 }
 
 .header-img{
@@ -16,7 +16,7 @@ header{
     line-height:120px;
     height: 120px;
     padding-top: 10px;
-    width:770px;
+    width:800px;
     font-size: 80px;
     letter-spacing: 15px;
     text-transform: uppercase;
@@ -24,7 +24,8 @@ header{
 }
 
 .name-logo p{
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 0;
     float: left;
     color:rgb(112,112,140);
 }
@@ -40,7 +41,7 @@ header{
 }
 
 #right-logo{
-    float: right;;
+    float: left;
 }
 
 .top-nav{
