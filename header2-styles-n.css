@@ -25,8 +25,8 @@ header{
 
 .name-logo p{
     margin-left: 20px;
-    margin-right: 0;
-    float: left;
+    width:620px;
+    float: left;    
     color:rgb(112,112,140);
 }
 
@@ -34,13 +34,6 @@ header{
     margin-top:20px;
     width:70px;
     filter: opacity(80%);
-}
-
-#left-logo{
-    float:left;
-}
-
-#right-logo{
     float: left;
 }
 
@@ -103,7 +96,7 @@ header{
     width:100%;
     height: 70px;
     text-decoration: none;
-    color:#f5f2ff;
+    color:#FBFAFF;
     position: relative;
     z-index: 3;
     bottom:200px;
