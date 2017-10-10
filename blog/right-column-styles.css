@@ -30,7 +30,7 @@
     width:180px;
     height: 37px;
     border-radius: 5px;
-    background:#FBFAFF;
+    background:#fff;
 }
 
 .hide-icon:hover{
@@ -51,7 +51,7 @@
     width: 70%;
     height: 37px;
     border: none;
-    background:#FBFAFF;
+    background:#fff;
     color:#010812;
     font-size: 17px;
     padding-left:10px;
@@ -89,14 +89,14 @@ input[type="submit"] {
     left:10px;
     right: 10px;
     height:250px;
-    background: #FBFAFF;
+    background: #fff;
     margin-bottom: 0;
     border-radius: 5px;
     box-shadow: 1px 2px 7px rgba(0,0,0,0.3);
 }
 
 .note:hover{
-    background:#E8E8F8;
+    background:#F7F7FA;
     height:auto;
     transition: all 0.3s ease;
 }

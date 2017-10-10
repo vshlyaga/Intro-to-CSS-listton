@@ -6,7 +6,7 @@
 body, html { 
     height:100%; 
     width:100%; 
-    background: #F2F6FA;
+    background: #fff;
     color:#010812; 
     font-family: sistem-ui, sans-serif,tahoma;
     font-size: 14pt;
@@ -42,7 +42,7 @@ h2{
 }
 
 .left-column{
-    background:#EAEFF1;
+    background:#F1F4F5;
     float:left; 
     height:auto;
     min-width:300px;
@@ -50,7 +50,7 @@ h2{
 }
 
 .right-column{
-    background:#EAEFF1;
+    background:#F1F4F5;
     height: auto;
     margin:0 0 0 31%;
     min-width:360px;
