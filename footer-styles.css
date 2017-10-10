@@ -61,8 +61,12 @@ footer section{
     text-align: center;
 }
 
-.sponsors-icon{
+.sponsors-icon, .soc-icon{
     width:100px;
     display: inline-block;
     margin: 10px;
+}
+
+.soc-icon{
+    filter: hue-rotate(45deg);
 }
