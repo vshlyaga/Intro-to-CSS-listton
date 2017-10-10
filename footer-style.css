@@ -66,7 +66,3 @@ footer section{
     display: inline-block;
     margin: 10px;
 }
-
-.soc-icon{
-    filter: hue-rotate(45deg);
-}
