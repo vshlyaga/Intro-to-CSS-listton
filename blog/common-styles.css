@@ -6,7 +6,7 @@
 body, html { 
     height:100%; 
     width:100%; 
-    background: #E5EAF0;
+    background: #F2F6FA;
     color:#010812; 
     font-family: sistem-ui, sans-serif,tahoma;
     font-size: 14pt;
@@ -28,7 +28,7 @@ h2{
     height: auto;
     width:98%;
     min-width:360px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin:auto;
     position:relative;
 }
